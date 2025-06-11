@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Security alert regarding a possible attempt to steal your Netflix account. Please reset and verify your account to prevent any unauthorized access." />
+  <meta name="keywords" content="Netflix, account theft, identity verification, account security, internet safety" />
+  <meta name="robots" content="index, follow">
+  <title>Security Alert | Netflix</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header, footer {
+      background-color: #e50914;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1, h2 {
+      margin: 0.5rem 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out;
+      animation: fadeIn 1s ease forwards;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .icon {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background-color: #e50914;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #b00610;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+    @media(min-width: 768px) {
+      .container {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚠️ Important Security Alert</h1>
+    <p>We suspect an unauthorized login attempt on your Netflix account. Please read carefully and take immediate action to secure your data.</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div class="icon">
+        <img src="https://i.ytimg.com/vi/tlOGNBrTBDw/maxresdefault.jpg" alt="Suspicious Login" />
+      </div>
+      <h2>Suspicious Activity Detected</h2>
+      <p>We've detected a login attempt from an unknown device or location. If this wasn't you, someone might be trying to access your account without permission.</p>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <img src="https://static.vecteezy.com/system/resources/previews/026/758/318/non_2x/identity-verification-icon-illustration-vector.jpg" alt="Verify Identity" />
+      </div>
+      <h2>Verify Your Identity</h2>
+      <p>To protect your personal data and viewing history, please reset your password and confirm your identity as soon as possible using the secure button below.</p>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.OnkXYyupSFM_FeOXnWTKbwHaHl?rs=1&pid=ImgDetMain" alt="Phishing Alert" />
+      </div>
+      <h2>Beware of Phishing</h2>
+      <p>Always be cautious of emails or messages asking for personal information. Netflix will never ask for your password via email or direct message.</p>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <img src="https://static.vecteezy.com/system/resources/previews/029/910/676/large_2x/scam-alert-hacker-attack-and-web-security-concept-phishing-scam-network-and-internet-security-illustration-vector.jpg" alt="Security Tips" />
+      </div>
+      <h2>Security Tips</h2>
+      <p>Use a strong, unique password for your Netflix account. Avoid using the same password across different platforms to minimize risk.</p>
+    </div>
+  </main>
+
+  <section class="cta">
+    <p>Click the button below to verify your identity using trusted platforms. This step is crucial to ensure your account stays protected.</p>
+    <a href="https://your-verification-link.com">Verify Identity Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Netflix Security - All rights reserved</p>
+    <p>This is an automated security message. If you did not request this, it may indicate suspicious behavior. Please act now to secure your account.</p>
+  </footer>
+</body>
+</html>
